@@ -1,0 +1,1 @@
+// Log the numbers 1-100 to the console using a while loop
