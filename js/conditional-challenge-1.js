@@ -1,12 +1,23 @@
 /*
  * Use conditional statements to print one of the following statements given
- * two values, value1 and value2:
+ * a variable, vehicle:
  *
- * "Value 1 is greater than Value 2"
- * "Value 1 is less than Value 2"
- * "Value 1 is equal to Value 2"
+ * "Vehicle is car"
+ * "Vehicle is truck"
+ * "Vehicle is boat"
+ * "Vehicle is not a car, boat, or truck"
  *
  */
 
-var value1 = 3;
-var value2 = 5;
+var vehicle = 'motorcycle';
+
+if (vehicle == 'truck') {
+    console.log('Vehicle is truck');
+} else if (vehicle == 'car') {
+     console.log('Vehicle is car');
+} else if (vehicle == 'boat') {
+    console.log('Vehicle is boat');
+} else {
+    console.log('Vehicle is not a car, boat, or truck');
+}
+

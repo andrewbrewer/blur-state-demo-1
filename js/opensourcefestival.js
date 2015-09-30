@@ -1,0 +1,1 @@
+var numStages = 6;

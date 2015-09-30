@@ -7,3 +7,10 @@
  * Alert the user what the area of a circle having a radius
  * of 5 is.
  */
+
+ function getCircleArea (r) {
+    return 3.14 * r * r;
+ }
+
+ var area = getCircleArea(5);
+ console.log(area);

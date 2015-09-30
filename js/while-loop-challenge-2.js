@@ -13,6 +13,13 @@
  * "There will be 64 sheep after 2 month(s)!"
  */
 
+
 var numSheep = 4;
 var monthNumber = 1;
 var monthsToPrint = 12;
+
+while (monthNumber <= monthsToPrint) {
+    numSheep *= 4;
+    console.log('There will be ' + numSheep + ' sheep after ' + monthNumber + ' month(s)!');
+    monthNumber++;
+}
